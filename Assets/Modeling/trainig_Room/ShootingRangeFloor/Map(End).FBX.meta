@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: 02a97f936599a3f42a35371fd570133f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AssistTable
+    100002: AssistTable 1
+    100004: AssistTable 2
+    100006: Bag
+    100008: Bag 1
+    100010: Bag 2
+    100012: Bag001
+    100014: Bag01
+    100016: Bag01 1
+    100018: Bag02
+    100020: box
+    100022: box 1
+    100024: box 10
+    100026: box 11
+    100028: box 12
+    100030: box 13
+    100032: box 2
+    100034: box 3
+    100036: box 4
+    100038: box 5
+    100040: box 6
+    100042: box 7
+    100044: box 8
+    100046: box 9
+    100048: Box003
+    100050: Box164
+    100052: Box166
+    100054: Box167
+    100056: Bucket
+    100058: Bucket 1
+    100060: Bucket 2
+    100062: Bucket 3
+    100064: CCTV
+    100066: CCTV 1
+    100068: CCTV 2
+    100070: CCTV 3
+    100072: Chair
+    100074: Chair 1
+    100076: Computer
+    100078: Dispenser
+    100080: Door01
+    100082: Door02
+    100084: ElasticLoadBalancing
+    100086: ElasticLoadBalancing 1
+    100088: ElasticLoadBalancing 2
+    100090: Elevator
+    100092: Elevator(door)
+    100094: Elevator(door) 1
+    100096: EmergencyLight
+    100098: EmergencyLight 1
+    100100: Group010
+    100102: Group011
+    100104: Group012
+    100106: Group013
+    100108: Group014
+    100110: Group015
+    100112: Group017
+    100114: Group018
+    100116: Group019
+    100118: Group021
+    100120: Locker
+    100122: MainBoardPart01
+    100124: MainBoardPart02
+    100126: MainBoardPart02 1
+    100128: //RootNode
+    100130: Map01
+    100132: Map02
+    100134: Pad
+    100136: Pillar00
+    100138: Pillar01
+    100140: Pillar02
+    100142: Pillar03
+    100144: Pipe00
+    100146: Pipe02
+    100148: Pipe03
+    100150: Roof
+    100152: Screen
+    100154: Target
+    100156: Target001
+    100158: Target002
+    100160: Wastebasket
+    100162: Weaponrack
+    100164: Whiteboard
+    400000: AssistTable
+    400002: AssistTable 1
+    400004: AssistTable 2
+    400006: Bag
+    400008: Bag 1
+    400010: Bag 2
+    400012: Bag001
+    400014: Bag01
+    400016: Bag01 1
+    400018: Bag02
+    400020: box
+    400022: box 1
+    400024: box 10
+    400026: box 11
+    400028: box 12
+    400030: box 13
+    400032: box 2
+    400034: box 3
+    400036: box 4
+    400038: box 5
+    400040: box 6
+    400042: box 7
+    400044: box 8
+    400046: box 9
+    400048: Box003
+    400050: Box164
+    400052: Box166
+    400054: Box167
+    400056: Bucket
+    400058: Bucket 1
+    400060: Bucket 2
+    400062: Bucket 3
+    400064: CCTV
+    400066: CCTV 1
+    400068: CCTV 2
+    400070: CCTV 3
+    400072: Chair
+    400074: Chair 1
+    400076: Computer
+    400078: Dispenser
+    400080: Door01
+    400082: Door02
+    400084: ElasticLoadBalancing
+    400086: ElasticLoadBalancing 1
+    400088: ElasticLoadBalancing 2
+    400090: Elevator
+    400092: Elevator(door)
+    400094: Elevator(door) 1
+    400096: EmergencyLight
+    400098: EmergencyLight 1
+    400100: Group010
+    400102: Group011
+    400104: Group012
+    400106: Group013
+    400108: Group014
+    400110: Group015
+    400112: Group017
+    400114: Group018
+    400116: Group019
+    400118: Group021
+    400120: Locker
+    400122: MainBoardPart01
+    400124: MainBoardPart02
+    400126: MainBoardPart02 1
+    400128: //RootNode
+    400130: Map01
+    400132: Map02
+    400134: Pad
+    400136: Pillar00
+    400138: Pillar01
+    400140: Pillar02
+    400142: Pillar03
+    400144: Pipe00
+    400146: Pipe02
+    400148: Pipe03
+    400150: Roof
+    400152: Screen
+    400154: Target
+    400156: Target001
+    400158: Target002
+    400160: Wastebasket
+    400162: Weaponrack
+    400164: Whiteboard
+    2100000: "_\uC548\uB4E4\uC5B4\uAC00\uB294\uAC7001___Default"
+    2100002: 01 - Default
+    2100004: No Name
+    2300000: AssistTable
+    2300002: AssistTable 1
+    2300004: AssistTable 2
+    2300006: Bag
+    2300008: Bag 1
+    2300010: Bag 2
+    2300012: Bag001
+    2300014: Bag01
+    2300016: Bag01 1
+    2300018: Bag02
+    2300020: box
+    2300022: box 1
+    2300024: box 10
+    2300026: box 11
+    2300028: box 12
+    2300030: box 13
+    2300032: box 2
+    2300034: box 3
+    2300036: box 4
+    2300038: box 5
+    2300040: box 6
+    2300042: box 7
+    2300044: box 8
+    2300046: box 9
+    2300048: Box003
+    2300050: Box164
+    2300052: Box166
+    2300054: Box167
+    2300056: Bucket
+    2300058: Bucket 1
+    2300060: Bucket 2
+    2300062: Bucket 3
+    2300064: CCTV
+    2300066: CCTV 1
+    2300068: CCTV 2
+    2300070: CCTV 3
+    2300072: Chair
+    2300074: Chair 1
+    2300076: Computer
+    2300078: Dispenser
+    2300080: Door01
+    2300082: Door02
+    2300084: ElasticLoadBalancing
+    2300086: ElasticLoadBalancing 1
+    2300088: ElasticLoadBalancing 2
+    2300090: Elevator
+    2300092: Elevator(door)
+    2300094: Elevator(door) 1
+    2300096: EmergencyLight
+    2300098: EmergencyLight 1
+    2300100: Locker
+    2300102: MainBoardPart01
+    2300104: MainBoardPart02
+    2300106: MainBoardPart02 1
+    2300108: Map01
+    2300110: Map02
+    2300112: Pad
+    2300114: Pillar00
+    2300116: Pillar01
+    2300118: Pillar02
+    2300120: Pillar03
+    2300122: Pipe00
+    2300124: Pipe02
+    2300126: Pipe03
+    2300128: Roof
+    2300130: Screen
+    2300132: Target
+    2300134: Target001
+    2300136: Target002
+    2300138: Wastebasket
+    2300140: Weaponrack
+    2300142: Whiteboard
+    3300000: AssistTable
+    3300002: AssistTable 1
+    3300004: AssistTable 2
+    3300006: Bag
+    3300008: Bag 1
+    3300010: Bag 2
+    3300012: Bag001
+    3300014: Bag01
+    3300016: Bag01 1
+    3300018: Bag02
+    3300020: box
+    3300022: box 1
+    3300024: box 10
+    3300026: box 11
+    3300028: box 12
+    3300030: box 13
+    3300032: box 2
+    3300034: box 3
+    3300036: box 4
+    3300038: box 5
+    3300040: box 6
+    3300042: box 7
+    3300044: box 8
+    3300046: box 9
+    3300048: Box003
+    3300050: Box164
+    3300052: Box166
+    3300054: Box167
+    3300056: Bucket
+    3300058: Bucket 1
+    3300060: Bucket 2
+    3300062: Bucket 3
+    3300064: CCTV
+    3300066: CCTV 1
+    3300068: CCTV 2
+    3300070: CCTV 3
+    3300072: Chair
+    3300074: Chair 1
+    3300076: Computer
+    3300078: Dispenser
+    3300080: Door01
+    3300082: Door02
+    3300084: ElasticLoadBalancing
+    3300086: ElasticLoadBalancing 1
+    3300088: ElasticLoadBalancing 2
+    3300090: Elevator
+    3300092: Elevator(door)
+    3300094: Elevator(door) 1
+    3300096: EmergencyLight
+    3300098: EmergencyLight 1
+    3300100: Locker
+    3300102: MainBoardPart01
+    3300104: MainBoardPart02
+    3300106: MainBoardPart02 1
+    3300108: Map01
+    3300110: Map02
+    3300112: Pad
+    3300114: Pillar00
+    3300116: Pillar01
+    3300118: Pillar02
+    3300120: Pillar03
+    3300122: Pipe00
+    3300124: Pipe02
+    3300126: Pipe03
+    3300128: Roof
+    3300130: Screen
+    3300132: Target
+    3300134: Target001
+    3300136: Target002
+    3300138: Wastebasket
+    3300140: Weaponrack
+    3300142: Whiteboard
+    4300000: Pillar00
+    4300002: Locker
+    4300004: Wastebasket
+    4300006: Weaponrack
+    4300008: Whiteboard
+    4300010: Pipe00
+    4300012: Pipe02
+    4300014: Pipe03
+    4300016: Dispenser
+    4300018: MainBoardPart01
+    4300020: Computer
+    4300022: Door01
+    4300024: Door02
+    4300026: Pad
+    4300028: Pillar01
+    4300030: Pillar03
+    4300032: Pillar02
+    4300034: Elevator
+    4300036: Box164
+    4300038: Roof
+    4300040: Box166
+    4300042: Box167
+    4300044: Bag02
+    4300046: Screen
+    4300048: AssistTable
+    4300050: AssistTable
+    4300052: AssistTable
+    4300054: box
+    4300056: box
+    4300058: box
+    4300060: box
+    4300062: box
+    4300064: box
+    4300066: box
+    4300068: box
+    4300070: box
+    4300072: box
+    4300074: box
+    4300076: box
+    4300078: box
+    4300080: box
+    4300082: Chair
+    4300084: Chair
+    4300086: CCTV
+    4300088: CCTV
+    4300090: CCTV
+    4300092: CCTV
+    4300094: EmergencyLight
+    4300096: EmergencyLight
+    4300098: Bag
+    4300100: Bag
+    4300102: Bag
+    4300104: Bucket
+    4300106: Bucket
+    4300108: Bucket
+    4300110: Bucket
+    4300112: MainBoardPart02
+    4300114: MainBoardPart02
+    4300116: ElasticLoadBalancing
+    4300118: ElasticLoadBalancing
+    4300120: ElasticLoadBalancing
+    4300122: Bag001
+    4300124: Bag01
+    4300126: Bag01
+    4300128: Elevator(door)
+    4300130: Elevator(door)
+    4300132: Box003
+    4300134: Map01
+    4300136: Target
+    4300138: Target001
+    4300140: Target002
+    4300142: Map02
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
