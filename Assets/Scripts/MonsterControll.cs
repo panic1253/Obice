@@ -59,17 +59,13 @@ public class MonsterControll : MonoBehaviour {
         {
             switch (curState)
             {
-                case CurrentState.idle:
-                    nvAgent.Stop();
-                    _animator.SetBool("isTrace", false);
-                    break;
+                
                 case CurrentState.trace:
                     nvAgent.destination = playerTransform.position;
                     nvAgent. Resume();
                     _animator.SetBool("isTrace", true);
                     break;
-                case CurrentState.attack:
-                    break;
+                
             }
             yield return null;
         }

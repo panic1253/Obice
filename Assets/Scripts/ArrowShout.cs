@@ -55,7 +55,7 @@ public class ArrowShout : MonoBehaviour
     }
     public void SetArrowShoutSpeed(float speed)
     {
-        arrowSpeed = speed*5;
+        arrowSpeed = speed*3;
             
         
         bArrowShout = true;//bArrowShout 가 true 가되어 화살이발사된다

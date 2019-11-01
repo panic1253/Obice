@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+
+
 public class ControllerControl : MonoBehaviour
 {
 
@@ -18,9 +19,7 @@ public class ControllerControl : MonoBehaviour
     void Awake()
 	{
 		trackedObj = GetComponent<SteamVR_TrackedObject>();
-        //Instantiate(gameObject, transform.position, Quaternion.identity);
-       // SteamVR_Controller.Input((int)trackedObj.index).TriggerHapticPulse(500);//컨트롤러 진동
-    }
+	}
 
 	void Update()
 	{

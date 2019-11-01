@@ -19,7 +19,7 @@ public class StringControl : MonoBehaviour
         currentBowStringPos[1] = bowStringCenter.transform.localPosition;//bowstring의 중심의좌표의 로컬표지션을 트렌스폼한다
         currentBowStringPos[2] = new Vector3(0, 0.44f, 0.849f);//pos1번의 새로운 vector좌표를 설정
         freezeBowStringPos = currentBowStringPos;
-        
+       
     }
     void Update()
     {
