@@ -88,7 +88,6 @@ GameObject:
   - component: {fileID: 4078186785171032}
   - component: {fileID: 65867352014260910}
   - component: {fileID: 95768403277849848}
-  - component: {fileID: 114254872886292460}
   m_Layer: 0
   m_Name: StringAsix
   m_TagString: BowString
@@ -279,22 +278,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114254872886292460
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1951037307567592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ec860709c90614d965cd85ad532d3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Angle: 0
-  Power: 2
-  bArrowShout: 0
-  arrowSpeed: 40
-  test: {fileID: 0}
 --- !u!114 &114422539526662472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -306,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da187808752491a408d46d27c4c07e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 0}
+  arrowPrefab: []
   bowframe: {fileID: 1247474130329304}
   bowStringCenter: {fileID: 1951037307567592}
   bowString: {fileID: 120436750524655880}
@@ -324,7 +307,7 @@ LineRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: e726f2f135da8e245852bab7726d9160, type: 2}
+  - {fileID: 2100000, guid: 5d5f4bd183eb8d34cbba31094e002420, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - Arrow
+  - projectile
+  - BowFrame
+  - BowString
+  - Obice
+  - PLAYER
   layers:
   - Default
   - TransparentFX
@@ -13,10 +20,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player_ITem
+  - MapObj
+  - Player
+  - Monster
   - 
   - 
   - 

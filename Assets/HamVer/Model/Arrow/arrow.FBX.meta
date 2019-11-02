@@ -1,23 +1,28 @@
 fileFormatVersion: 2
-guid: f7fa501673833c64eb321f10d9a370b6
+guid: 86d36cd6080a2834c90d255bc00fee27
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Object007
+    100002: Box002
     100004: "\xA1\xA1\xD7\xFD\xD7\xFB"
     100006: "\xD7\xFE\xD7\xFC"
     400000: //RootNode
-    400002: Object007
+    400002: Box002
     400004: "\xA1\xA1\xD7\xFD\xD7\xFB"
     400006: "\xD7\xFE\xD7\xFC"
     2100000: No Name
-    2300000: Object007
-    3300000: Object007
-    4300000: Object007
+    2300000: Box002
+    3300000: Box002
+    4300000: Box002
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 3595e41b57d8683489db9376942c72b7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -72,7 +77,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -88,10 +93,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
