@@ -290,8 +290,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowPrefab: []
-  bowframe: {fileID: 1247474130329304}
+  arrowLoaded: {fileID: 0}
   bowStringCenter: {fileID: 1951037307567592}
+  bowHandle: {fileID: 0}
   bowString: {fileID: 120436750524655880}
 --- !u!120 &120436750524655880
 LineRenderer:
