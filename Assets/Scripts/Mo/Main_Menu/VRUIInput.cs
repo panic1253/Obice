@@ -7,9 +7,11 @@ public class VRUIInput : MonoBehaviour
 {
     private SteamVR_LaserPointer laserPointer;
     private SteamVR_TrackedController trackedController;
+    public AudioSource audioSource;
 
     private void OnEnable()
     {
+        audioSource = GetComponent<AudioSource>();
         laserPointer = GetComponent<SteamVR_LaserPointer>();
         laserPointer.PointerIn -= HandlePointerIn;
         laserPointer.PointerIn += HandlePointerIn;
@@ -30,6 +32,7 @@ public class VRUIInput : MonoBehaviour
         if (EventSystem.current.currentSelectedGameObject != null)
         {
             ExecuteEvents.Execute(EventSystem.current.currentSelectedGameObject, new PointerEventData(EventSystem.current), ExecuteEvents.submitHandler);
+            audioSource.Play();
         }
     }
 
