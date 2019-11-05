@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59f462a88d7fcce48b6f33abe3154769
+guid: 18542f1a9722c9644acd7afba8fff8ca
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -34,50 +34,49 @@ ModelImporter:
     100056: Bip001 L Hand
     100058: Bip001 L Thigh
     100060: Bip001 L Toe0
-    100062: Bip001 L Toe0Nub
-    100064: Bip001 L UpperArm
-    100066: Bip001 Neck
-    100068: Bip001 Pelvis
-    100070: Bip001 R Calf
-    100072: Bip001 R Clavicle
-    100074: Bip001 R Finger0
-    100076: Bip001 R Finger01
-    100078: Bip001 R Finger02
-    100080: Bip001 R Finger0Nub
-    100082: Bip001 R Finger1
-    100084: Bip001 R Finger11
-    100086: Bip001 R Finger12
-    100088: Bip001 R Finger1Nub
-    100090: Bip001 R Finger2
-    100092: Bip001 R Finger21
-    100094: Bip001 R Finger22
-    100096: Bip001 R Finger2Nub
-    100098: Bip001 R Finger3
-    100100: Bip001 R Finger31
-    100102: Bip001 R Finger32
-    100104: Bip001 R Finger3Nub
-    100106: Bip001 R Finger4
-    100108: Bip001 R Finger41
-    100110: Bip001 R Finger42
-    100112: Bip001 R Finger4Nub
-    100114: Bip001 R Foot
-    100116: Bip001 R Forearm
-    100118: Bip001 R Hand
-    100120: Bip001 R Thigh
-    100122: Bip001 R Toe0
-    100124: Bip001 R Toe0Nub
-    100126: Bip001 R UpperArm
-    100128: Bip001 Spine
-    100130: Bip001 Spine1
-    100132: Bip001 Spine2
-    100134: body
-    100136: Box002
-    100138: Group001
-    100140: Group002
-    100142: Object001
-    100144: Particle View 001
-    100146: PM3D_Sphere3D_1
-    100148: //RootNode
+    100062: Bip001 L Toe01
+    100064: Bip001 L Toe02
+    100066: Bip001 L Toe0Nub
+    100068: Bip001 L UpperArm
+    100070: Bip001 Neck
+    100072: Bip001 Pelvis
+    100074: Bip001 R Calf
+    100076: Bip001 R Clavicle
+    100078: Bip001 R Finger0
+    100080: Bip001 R Finger01
+    100082: Bip001 R Finger02
+    100084: Bip001 R Finger0Nub
+    100086: Bip001 R Finger1
+    100088: Bip001 R Finger11
+    100090: Bip001 R Finger12
+    100092: Bip001 R Finger1Nub
+    100094: Bip001 R Finger2
+    100096: Bip001 R Finger21
+    100098: Bip001 R Finger22
+    100100: Bip001 R Finger2Nub
+    100102: Bip001 R Finger3
+    100104: Bip001 R Finger31
+    100106: Bip001 R Finger32
+    100108: Bip001 R Finger3Nub
+    100110: Bip001 R Finger4
+    100112: Bip001 R Finger41
+    100114: Bip001 R Finger42
+    100116: Bip001 R Finger4Nub
+    100118: Bip001 R Foot
+    100120: Bip001 R Forearm
+    100122: Bip001 R Hand
+    100124: Bip001 R Thigh
+    100126: Bip001 R Toe0
+    100128: Bip001 R Toe01
+    100130: Bip001 R Toe02
+    100132: Bip001 R Toe0Nub
+    100134: Bip001 R UpperArm
+    100136: Bip001 Spine
+    100138: Bip001 Spine1
+    100140: Bip001 Spine2
+    100142: Bip001 Spine3
+    100144: //RootNode
+    100146: Object001
     400000: Bip001
     400002: Bip001 Footsteps
     400004: Bip001 Head
@@ -109,66 +108,54 @@ ModelImporter:
     400056: Bip001 L Hand
     400058: Bip001 L Thigh
     400060: Bip001 L Toe0
-    400062: Bip001 L Toe0Nub
-    400064: Bip001 L UpperArm
-    400066: Bip001 Neck
-    400068: Bip001 Pelvis
-    400070: Bip001 R Calf
-    400072: Bip001 R Clavicle
-    400074: Bip001 R Finger0
-    400076: Bip001 R Finger01
-    400078: Bip001 R Finger02
-    400080: Bip001 R Finger0Nub
-    400082: Bip001 R Finger1
-    400084: Bip001 R Finger11
-    400086: Bip001 R Finger12
-    400088: Bip001 R Finger1Nub
-    400090: Bip001 R Finger2
-    400092: Bip001 R Finger21
-    400094: Bip001 R Finger22
-    400096: Bip001 R Finger2Nub
-    400098: Bip001 R Finger3
-    400100: Bip001 R Finger31
-    400102: Bip001 R Finger32
-    400104: Bip001 R Finger3Nub
-    400106: Bip001 R Finger4
-    400108: Bip001 R Finger41
-    400110: Bip001 R Finger42
-    400112: Bip001 R Finger4Nub
-    400114: Bip001 R Foot
-    400116: Bip001 R Forearm
-    400118: Bip001 R Hand
-    400120: Bip001 R Thigh
-    400122: Bip001 R Toe0
-    400124: Bip001 R Toe0Nub
-    400126: Bip001 R UpperArm
-    400128: Bip001 Spine
-    400130: Bip001 Spine1
-    400132: Bip001 Spine2
-    400134: body
-    400136: Box002
-    400138: Group001
-    400140: Group002
-    400142: Object001
-    400144: Particle View 001
-    400146: PM3D_Sphere3D_1
-    400148: //RootNode
-    2100000: PM3D_Sphere3D_1
-    2100002: 02 - Default
-    2100004: Gun Body
-    2100006: Gun part
-    2300000: Box002
-    2300002: Object001
-    3300000: Box002
-    3300002: Object001
-    4300000: PM3D_Sphere3D_1
-    4300002: body
-    4300004: Box002
-    4300006: Object001
+    400062: Bip001 L Toe01
+    400064: Bip001 L Toe02
+    400066: Bip001 L Toe0Nub
+    400068: Bip001 L UpperArm
+    400070: Bip001 Neck
+    400072: Bip001 Pelvis
+    400074: Bip001 R Calf
+    400076: Bip001 R Clavicle
+    400078: Bip001 R Finger0
+    400080: Bip001 R Finger01
+    400082: Bip001 R Finger02
+    400084: Bip001 R Finger0Nub
+    400086: Bip001 R Finger1
+    400088: Bip001 R Finger11
+    400090: Bip001 R Finger12
+    400092: Bip001 R Finger1Nub
+    400094: Bip001 R Finger2
+    400096: Bip001 R Finger21
+    400098: Bip001 R Finger22
+    400100: Bip001 R Finger2Nub
+    400102: Bip001 R Finger3
+    400104: Bip001 R Finger31
+    400106: Bip001 R Finger32
+    400108: Bip001 R Finger3Nub
+    400110: Bip001 R Finger4
+    400112: Bip001 R Finger41
+    400114: Bip001 R Finger42
+    400116: Bip001 R Finger4Nub
+    400118: Bip001 R Foot
+    400120: Bip001 R Forearm
+    400122: Bip001 R Hand
+    400124: Bip001 R Thigh
+    400126: Bip001 R Toe0
+    400128: Bip001 R Toe01
+    400130: Bip001 R Toe02
+    400132: Bip001 R Toe0Nub
+    400134: Bip001 R UpperArm
+    400136: Bip001 Spine
+    400138: Bip001 Spine1
+    400140: Bip001 Spine2
+    400142: Bip001 Spine3
+    400144: //RootNode
+    400146: Object001
+    2100000: _handStandard_1
+    4300000: Object001
     7400000: Take 001
     9500000: //RootNode
-    13700000: body
-    13700002: PM3D_Sphere3D_1
+    13700000: Object001
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -195,35 +182,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 30
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

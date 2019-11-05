@@ -7,7 +7,7 @@ public class Sence : MonoBehaviour
 {
     public void ChangeScence()
     {
-        SceneManager.LoadScene("InGame");
+        SceneManager.LoadScene("mian_game");
         Application.Quit();
     }
 

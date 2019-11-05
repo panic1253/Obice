@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 198112144422084866}
   - component: {fileID: 199714126741189380}
   m_Layer: 0
-  m_Name: Boss_Skill_shot_canon
+  m_Name: Leo_Base Attak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

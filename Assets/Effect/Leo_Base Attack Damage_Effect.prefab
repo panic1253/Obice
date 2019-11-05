@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 198539120865606354}
   - component: {fileID: 199414999795143300}
   m_Layer: 0
-  m_Name: Leo_Base Attack Damage
+  m_Name: Leo_Base Attack Damage_Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

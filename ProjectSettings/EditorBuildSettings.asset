@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main_Menu.unity
+    path: Assets/Scence/uilazer.unity
     guid: 906293b850e2fcc4aba55679d1530e39
   - enabled: 1
-    path: Assets/Scenes/Training_Room.unity
-    guid: d6ac71efb8561b24d936282a31969dfe
+    path: Assets/Scence/mian_game.unity
+    guid: 52ae7b96cfeea324baf5053c66162fa6

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198685422646279690}
   - component: {fileID: 199117461919810692}
   m_Layer: 0
-  m_Name: Volvo_Skill Damage
+  m_Name: Volvo_Skill Damage_Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

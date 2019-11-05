@@ -32,7 +32,7 @@ public class VRUIInput : MonoBehaviour
         if (EventSystem.current.currentSelectedGameObject != null)
         {
             ExecuteEvents.Execute(EventSystem.current.currentSelectedGameObject, new PointerEventData(EventSystem.current), ExecuteEvents.submitHandler);
-            audioSource.Play();
+           
         }
     }
 
@@ -42,7 +42,7 @@ public class VRUIInput : MonoBehaviour
         if (button != null)
         {
             button.Select();
-            Debug.Log("HandlePointerIn", e.target.gameObject);
+            Debug.Log("HandlePointerIn", e.target.gameObject); 
         }
     }
 
