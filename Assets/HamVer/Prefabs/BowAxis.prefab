@@ -213,7 +213,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1637076653500192}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -12.024659, y: 0.08702151, z: 2.141}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4474235429843510}
@@ -369,10 +369,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowPrefab:
+  - {fileID: 1895998655035198, guid: 94f811cce52d58d4a866d64c1c29452b, type: 2}
   - {fileID: 1625725640212820, guid: 7096a2a9337a1f940bd475d370e809e1, type: 2}
-  - {fileID: 1625725640212820, guid: 7096a2a9337a1f940bd475d370e809e1, type: 2}
-  - {fileID: 1373416205860356, guid: d4c4f7b8bf611ed4ea5259ae182a30d2, type: 2}
-  - {fileID: 1911269014251012, guid: e914494870567f941ad20ac0cdedde71, type: 2}
+  - {fileID: 1751252332940012, guid: 39c1ec287c15271488315635bdc7cb75, type: 2}
   arrowLoaded: {fileID: 1776528195172088}
   bowStringCenter: {fileID: 1152495989047534}
   bowHandle: {fileID: 1871549911320426}

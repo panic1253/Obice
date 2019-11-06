@@ -8,6 +8,7 @@ public class StringControl : MonoBehaviour
     public LineRenderer bowString;//bowString의LineRenderer 가져옴
     Vector3[] currentBowStringPos = new Vector3[3];//bowString 의 3개의 위치설정 
 
+    public GameObject test;
     
     bool bBowGrip = true;
     bool bArrowLoading = false;
@@ -25,6 +26,7 @@ public class StringControl : MonoBehaviour
     {
         if (!bowHandle.GetComponent<BoxCollider>().enabled)
         {
+            GetComponent<Rigidbody>().isKinematic = true;
             if (bBowGrip)
             {
                 bBowGrip = false;
@@ -33,25 +35,25 @@ public class StringControl : MonoBehaviour
             else
             {
                 if (bowStringCenter.GetComponent<BoxCollider>().enabled)
-                {                   
+                {
+                    float arrow = bowStringCenter.transform.localPosition.z;
+                    bowStringCenter.transform.localPosition = new Vector3(0, 0, -0.202f);
                     arrowLoaded.SetActive(false);
-                    
-
-                  
                     if (bArrowLoading)
                     {
-                        if (bowStringCenter.transform.localPosition.z >= -0.3)
+                        if (arrow >= -0.3)
                         {
                             Instantiate(arrowPrefab[0], bowStringCenter.transform.position, bowStringCenter.transform.rotation);
                             bArrowLoading = false;
                         }
 
-                        bowStringCenter.transform.localPosition = new Vector3(0, 0, -0.202f);
                         if (bArrowLoading)
                         {
                             if (bowSkillTime < 4)
                             {
-                                Instantiate(arrowPrefab[1], bowStringCenter.transform.position, bowStringCenter.transform.rotation);
+                                GameObject arrowObj = Instantiate(arrowPrefab[1], bowStringCenter.transform.position, bowStringCenter.transform.rotation);
+                                arrowObj.GetComponent<ArrowBasic>().speed = 20 + (10 * Mathf.Abs(arrow / 0.6f));
+
                             }
                             else
                             {
@@ -65,7 +67,11 @@ public class StringControl : MonoBehaviour
                 else
                 {
                     arrowLoaded.SetActive(true);
-
+                    if (test != null)
+                    {
+                        bowStringCenter.transform.position = test.transform.position;
+                        bowStringCenter.transform.localPosition = new Vector3(0, 0, Mathf.Clamp(bowStringCenter.transform.localPosition.z, -0.6f, -0.202f));
+                    }
                     bArrowLoading = true;
 
                     if (currentBowStringPos[1].z < -0.3)//화살 스킬 경계
@@ -76,12 +82,13 @@ public class StringControl : MonoBehaviour
                     {
                         bowSkillTime = 0;
                     }
-                    Debug.Log(bowSkillTime);
+                    Debug.Log(20 + (10 * Mathf.Abs(bowStringCenter.transform.localPosition.z / 0.6f)));
                 }
             }
         }
         else
         {
+            GetComponent<Rigidbody>().isKinematic = false;
             arrowLoaded.SetActive(false);
             bowStringCenter.transform.localPosition = new Vector3(0, 0, -0.202f);
             bBowGrip = true;
