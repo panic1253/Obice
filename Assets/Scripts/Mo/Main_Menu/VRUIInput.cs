@@ -48,6 +48,7 @@ public class VRUIInput : MonoBehaviour
 
     private void HandlePointerOut(object sender, PointerEventArgs e)
     {
+
         var button = e.target.GetComponent<Button>();
         if (button != null)
         {

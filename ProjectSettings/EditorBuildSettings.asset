@@ -11,6 +11,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scence/mian_game.unity
     guid: 52ae7b96cfeea324baf5053c66162fa6
-  - enabled: 1
-    path: Assets/HamVer/Scence/MainGameScene.unity
-    guid: b9f23faaffe6d22419ca1f52b1be9c18
