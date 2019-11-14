@@ -7,13 +7,15 @@ public class StringControl : MonoBehaviour
     public GameObject bowHandle;
     public LineRenderer bowString;//bowString의LineRenderer 가져옴
     Vector3[] currentBowStringPos = new Vector3[3];//bowString 의 3개의 위치설정 
+    public Collider bowStringCenterRig;
 
-    public GameObject test;
-    
+
     bool bBowGrip = true;
     bool bArrowLoading = false;
 
     float bowSkillTime = 0;
+
+    public Vector3 bowStringPos;
     void Start()
     {
         bowStringCenter.transform.localPosition = new Vector3(0, 0, -0.202f);//활시위의 중심의 로컬포지션을 (0,292,0)으로 좌표지정
@@ -67,11 +69,9 @@ public class StringControl : MonoBehaviour
                 else
                 {
                     arrowLoaded.SetActive(true);
-                    if (test != null)
-                    {
-                        bowStringCenter.transform.position = test.transform.position;
-                        bowStringCenter.transform.localPosition = new Vector3(0, 0, Mathf.Clamp(bowStringCenter.transform.localPosition.z, -0.6f, -0.202f));
-                    }
+                    bowStringCenter.transform.position = bowStringPos;
+                    bowStringCenter.transform.localPosition = new Vector3(0, 0, Mathf.Clamp(bowStringCenter.transform.localPosition.z, -0.6f, -0.202f));
+                    
                     bArrowLoading = true;
 
                     if (currentBowStringPos[1].z < -0.3)//화살 스킬 경계

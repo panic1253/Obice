@@ -26,8 +26,8 @@ TagManager:
   - Player
   - Monster
   - Ground
-  - 
-  - 
+  - IgnoreRayCast
+  - Monster_Attack
   - 
   - 
   - 

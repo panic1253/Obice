@@ -376,6 +376,8 @@ MonoBehaviour:
   bowStringCenter: {fileID: 1152495989047534}
   bowHandle: {fileID: 1871549911320426}
   bowString: {fileID: 120084578791102420}
+  bowStringCenterRig: {fileID: 65630270741474102}
+  bowStringPos: {x: 0, y: 0, z: 0}
 --- !u!120 &120084578791102420
 LineRenderer:
   m_ObjectHideFlags: 1

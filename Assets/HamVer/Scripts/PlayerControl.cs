@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
     public GameObject bowString;
     public bool grip = false;
     bool test = false;
-    void Start ()
+   /* void Start ()
     {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
     }
@@ -92,5 +92,5 @@ public class PlayerControl : MonoBehaviour
                 bowString = null;
             }
         }
-    }
+    }*/
 }

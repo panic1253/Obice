@@ -15,6 +15,7 @@ public class PlayerStatusManager : MonoBehaviour
 
     public bool bSufferDamage = false;
 
+    float sufferDamageTimer = 0;
     void Start ()
     {
         StartCoroutine(PlayerStatusControl());
@@ -22,10 +23,9 @@ public class PlayerStatusManager : MonoBehaviour
 
     IEnumerator PlayerStatusControl()
     {
-        float sufferDamageTimer = 0;
-        while (true)
+        while (physicalStrength > 0)
         {
-           
+
             if (bSufferDamage)
             {
                 sufferDamageTimer += Time.deltaTime;
@@ -48,5 +48,12 @@ public class PlayerStatusManager : MonoBehaviour
             }
             yield return null;
         }
+        Debug.Log("end");
+    }
+    public void Damage(float value)
+    {
+        bSufferDamage = true;
+        physicalStrength -= value;
+        sufferDamageTimer = 0;
     }
 }
